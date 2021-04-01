@@ -5,7 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Status1
-        - /Odometry1/Status1
         - /Odometry2/Shape1
         - /DepthCloud1/Auto Size1
         - /DepthCloud2/Auto Size1
@@ -410,7 +409,7 @@ Visualization Manager:
           Scale: 1
           Value: true
         Value: false
-      Enabled: false
+      Enabled: true
       Keep: 100
       Name: Odometry
       Position Tolerance: 0.10000000149011612
@@ -426,7 +425,7 @@ Visualization Manager:
         Value: Arrow
       Topic: /jimmbot_controller/jimmbot_velocity_controller/odom
       Unreliable: false
-      Value: false
+      Value: true
     - Angle Tolerance: 0.10000000149011612
       Class: rviz/Odometry
       Covariance:
@@ -458,7 +457,7 @@ Visualization Manager:
         Shaft Length: 0.009999999776482582
         Shaft Radius: 0.004999999888241291
         Value: Arrow
-      Topic: /odom
+      Topic: /odometry/filtered
       Unreliable: false
       Value: true
     - Alpha: 1
@@ -740,7 +739,7 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 25
+      Scale: 94.41888427734375
       Target Frame: base_link
       Value: TopDownOrtho (rviz)
       X: 0

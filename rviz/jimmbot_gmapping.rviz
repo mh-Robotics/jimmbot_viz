@@ -311,7 +311,7 @@ Visualization Manager:
           Value: true
         map:
           Value: true
-        odometry/filtered:
+        odom:
           Value: true
         wheel_axis_back_left:
           Value: true
@@ -336,7 +336,7 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
-          odometry/filtered:
+          odom:
             base_link:
               chassis:
                 boggie_left:
@@ -409,7 +409,7 @@ Visualization Manager:
           Scale: 1
           Value: true
         Value: false
-      Enabled: false
+      Enabled: true
       Keep: 100
       Name: Odometry
       Position Tolerance: 0.10000000149011612
@@ -425,7 +425,7 @@ Visualization Manager:
         Value: Arrow
       Topic: /jimmbot_controller/jimmbot_velocity_controller/odom
       Unreliable: false
-      Value: false
+      Value: true
     - Angle Tolerance: 0.10000000149011612
       Class: rviz/Odometry
       Covariance:
