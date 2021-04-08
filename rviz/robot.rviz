@@ -355,7 +355,7 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.009999999776482582
           Style: Flat Squares
-          Topic: /back/depth/points
+          Topic: /kinect_front/depth/points
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -385,14 +385,14 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.009999999776482582
           Style: Flat Squares
-          Topic: /front/depth/points
+          Topic: /kinect_back/depth/points
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
           Value: true
         - Class: rviz/Image
           Enabled: true
-          Image Topic: /back/rgb/image_raw
+          Image Topic: /kinect_front/rgb/image_color
           Max Value: 1
           Median window: 5
           Min Value: 0
@@ -404,7 +404,7 @@ Visualization Manager:
           Value: true
         - Class: rviz/Image
           Enabled: true
-          Image Topic: /front/rgb/image_raw
+          Image Topic: /kinect_front/rgb/image_color
           Max Value: 1
           Median window: 5
           Min Value: 0
