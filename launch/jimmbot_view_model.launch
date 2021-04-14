@@ -2,7 +2,7 @@
 <!-- 
 MIT License
 
-@file      description.launch
+@file      jimmbot_view_model.launch
 @author    Mergim Halimi (m.halimi123@gmail.com)
 @copyright Copyright (c) 2021, mhRobotics, Inc., All rights reserved.
 
@@ -30,7 +30,7 @@ SOFTWARE.
 
   <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jimmbot_viz)/rviz/model.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jimmbot_viz)/rviz/jimmbot_model.rviz" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 

@@ -2,7 +2,7 @@
 <!-- 
 MIT License
 
-@file      description.launch
+@file      jimmbot_view_robot.launch
 @author    Mergim Halimi (m.halimi123@gmail.com)
 @copyright Copyright (c) 2021, mhRobotics, Inc., All rights reserved.
 
@@ -26,6 +26,6 @@ SOFTWARE.
  -->
 <launch>
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jimmbot_viz)/rviz/robot.rviz" output="screen" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jimmbot_viz)/rviz/jimmbot_robot.rviz" output="screen" />
 
 </launch>
